@@ -1,0 +1,44 @@
+.box{
+  width: 450px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  h1{
+    margin: 10px 0;
+  }
+    h2{
+      font-size: 19px;
+      margin: 10px 0;
+    }
+    ul li{
+      list-style: none;
+      border: 1px solid grey;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button{
+      width: 150px;
+      padding: 10px;
+      background-color: purple;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      margin: 10px 50%;
+      transform: translate(-50%);
+      cursor: pointer;
+    }
+    .index{
+     text-align: center;
+    }
+  
+}
+.box .correct{
+  background-color: rgb(92, 212, 92);
+  border-color: rgb(0, 255, 0);
+}
+.box .incorrect{
+  background-color: rgb(212, 113, 113);
+  border-color: red;
+}
